@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+body {
+    background-color: black;
+}
+header::before {
+    background: url('https://miro.medium.com/max/11038/1*muKdXfyNBdDDehayIa8dJA.jpeg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.92;
+}
+.navigation ul {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.navigation ul li {
+    list-style-type: none;
+    padding: 14px;
+    display: block;
+}
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation ul li a:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+    padding: 35px;
+}
+img {
+    box-sizing: content-box;
+    display: block;
+    width: 17%;
+    margin: auto;
+    /* padding: 30px; */
+    border-radius: 50px;
+    box-shadow: 0px 0px 1000px rgb(39, 32, 70);
+}
+h3 {
+    text-align: center; 
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    border: 2px dotted white;
+}
+p {
+    font-size: 19px;
+    padding: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.mainhob{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.itemhob{
+    border: 2px solid rgb(4, 0, 255);
+    /* width: 30%; */
+    width: 450px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 2px 2px 30px rgb(4, 0, 255);
+}
+.itemhob h4{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+#hob1{
+    transition: width 0.5s;
+    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.3)), url('https://st4.depositphotos.com/1701651/21760/i/1600/depositphotos_217606680-stock-photo-headphone-microphone-earphones-orange-background.jpg') no-repeat center center/cover;
+}
+#hob1:hover, #hob2:hover, #hob3:hover, #hob4:hover{
+    /* font-size: 120%; */
+    width: 500px;
+}
+#hob2{
+    transition: width 0.5s;
+    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('https://www.ubp.com/files/live/sites/ubp/files/banner_newsroom/200124_Vignette_Web_Detail.jpg') no-repeat center center/cover;
+}
+#hob3{
+    transition: width 0.5s;
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), url('https://blog.mapmyrun.com/wp-content/uploads/2019/04/7-Cycling-Tips-to-Help-You-Ride-in-Strong-Winds.jpg') no-repeat center center/cover;
+}
+#hob4{
+    transition: width 0.5s;
+    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('https://thumbs.dreamstime.com/b/desktop-source-code-technology-background-developer-programer-coding-programming-wallpaper-computer-language-virus-125215905.jpg') no-repeat center center/cover;
+}
+.exp{
+    padding: 20px 30px 30px 50px;
+    font-size: 19px;
+    
+}
+.exp li{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.info {
+    border: 3px solid red;
+    border-radius: 50px;
+    padding: 30px;
+    margin: auto;
+    width: 60%;
+    box-shadow: 0 0 10px red;
+    background-color: rgba(41, 32, 20, 0.527);
+}
+h2{
+    text-align:center;
+    font-size: 32px;
+}
+.info form{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+#c1{
+    width: 400px;
+    padding: 15px;
+    margin: 10px 0px;
+}
+#c1 label input{
+    width: 60%;
+    height: 40px;;
+    color: black;
+}
+#c2{
+    width:400px;
+    padding: 15px;
+    margin: 10px 0px;
+}
+#c2 label input{
+    width: 60%;
+    height: 40px;;
+    color: black;
+}
+/* #c3{
+    width: 900px;
+    padding: 15px;
+    margin: 10px 0;
+}
+#c3 label input{
+    width: 70%;
+    height: 40px;
+    color: black;
+} */
+#c4{
+    width: 900px;
+    padding: 15px;
+    margin: 10px;
+}
+#c4 label textarea{
+    width: 70%;
+    height: 100px;
+    color: black;
+}
+#c5 input{
+    width: 200px;;
+    padding: 15px;
+    margin: 10px;
+    color:black;
+    cursor: pointer;
+}
+#c6 button{
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    color:black;
+    cursor: pointer;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+    box-shadow: 0 0 5px yellow;
+}
+#media1{
+    transition: width 0.5s;
+}
+#media2{
+    transition: width 0.5s;
+}
+#media3{
+    transition: width 0.5s;
+}
+#media4{
+    transition: width 0.5s;
+}
+#media5{
+    transition: width 0.5s;
+}
+#media1:hover, #media2:hover, #media3:hover, #media4:hover, #media5:hover{
+    width: 220px;
+}
